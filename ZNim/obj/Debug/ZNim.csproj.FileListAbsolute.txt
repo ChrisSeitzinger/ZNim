@@ -1,0 +1,5 @@
+C:\Users\Chris\Source\Repos\ZNim\ZNim\obj\Debug\ZNim.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Source\Repos\ZNim\ZNim\bin\Debug\ZNim.dll
+C:\Users\Chris\Source\Repos\ZNim\ZNim\bin\Debug\ZNim.pdb
+C:\Users\Chris\Source\Repos\ZNim\ZNim\obj\Debug\ZNim.dll
+C:\Users\Chris\Source\Repos\ZNim\ZNim\obj\Debug\ZNim.pdb
