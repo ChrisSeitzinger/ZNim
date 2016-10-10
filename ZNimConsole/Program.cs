@@ -12,17 +12,6 @@ namespace ZNim.CommandLine
         {
             WriteIntro();
 
-            //Game game = new Game();
-            //boardRenderer = new BoardRenderer(game.Board);
-
-            //string name = GetPlayerName("player one");
-            //IPlayer player1 = new HumanPlayer(name, boardRenderer);
-            //game.Join(player1);
-
-            ////name = GetPlayerName("player two");
-            //IPlayer player2 = new BotPlayer();
-            //game.Join(player2);
-
             Game game;
             IPlayer player1;
             IPlayer player2;
@@ -32,11 +21,10 @@ namespace ZNim.CommandLine
                 game = new Game();
                 boardRenderer = new BoardRenderer(game.Board);
 
-                string name = GetPlayerName("player one");
+                string name = GetPlayerName("player1");
                 player1 = new HumanPlayer(name, boardRenderer);
                 game.Join(player1);
 
-                //name = GetPlayerName("player two");
                 player2 = new BotPlayer();
                 game.Join(player2);
 
